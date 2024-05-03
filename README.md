@@ -1,3 +1,4 @@
 # AI_games
 
-- Blog de inicio con HF api: [https://huggingface.co/blog/unity-api](How to Install and Use the Hugging Face Unity API)
+- Blog to begin with HF api: [How to Install and Use the Hugging Face Unity API](https://huggingface.co/blog/unity-api)
+- Repository guide: [Hugging Face API for Unity 🤗](https://github.com/huggingface/unity-api)

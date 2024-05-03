@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using HuggingFace.API;
+using HuggingFace;
 
 public class GeneratorAI_HF : MonoBehaviour
 {
+    // HuggingFace.API.HuggingFaceAPI HF_api;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        
         Query();
     }
 
@@ -24,7 +28,7 @@ public class GeneratorAI_HF : MonoBehaviour
             "The player is going to the wilderness",
             "The player is wandering aimlessly"
         };
-        HuggingFace.API.HuggingFaceAPI.SentenceSimilarity(inputText, OnSuccess, OnError, candidates);
+        // HuggingFace.API.HuggingFaceAPI.SentenceSimilarity(inputText, OnSuccess, OnError, candidates);
         // HuggingFaceAPI.SentenceSimilarity(inputText, OnSuccess, OnError, candidates);
     }
 
